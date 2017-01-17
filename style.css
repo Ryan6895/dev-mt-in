@@ -1,0 +1,88 @@
+.topMenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-size: 36px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.search {
+  width: 45px;
+  height: 45px;
+
+}
+.hamburger {
+  width: 45px;
+  height: 45px;
+}
+.horizontal {
+  width: 98%;
+  border-top: 1px #DADADA solid;
+  margin: auto;
+  margin-top: 26px
+}
+.center {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: flex-start;
+}
+.input {
+  width: 315px;
+  margin: 65px;
+}
+.spacing {
+  margin: 10px;
+  width: 100%;
+}
+.cyan {
+  color: cyan;
+}
+.welcome {
+  text-align: center;
+  line-height: 11px;
+  font-size: 16px;
+  margin-bottom: 22px;
+}
+#save {
+  background-color: #85f3fd;
+  border-color: #85f3fd;
+  color: #9A9A9A;
+}
+.bottomMenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-size: 26px;
+  color: #9A9A9A;
+  padding-top: 25px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.arrows {
+  position: relative;
+  height: 690px;
+  width: 60%
+}
+.arrow-up {
+  position: absolute;
+  width: 454px;
+  height: 400px;
+  -webkit-clip-path: polygon(50% 0%, 9% 90%, 100% 100%);
+  clip-path: polygon(50% 0%, 9% 90%, 100% 100%);
+  background: url(images/loft.jpg);
+  top: 17%;
+  left: 9%;
+}
+.arrow-down {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 190px solid rgba(255, 255, 255, 0);
+    border-right: 240px solid rgba(255, 255, 255, 0);
+    border-bottom: 376px solid #85f3fd;
+    transform: rotateZ(55deg);
+    top: 33%;
+    left: 23%
+}
